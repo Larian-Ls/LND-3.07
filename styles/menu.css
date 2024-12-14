@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.MenuPrincipal ul{
+    list-style-type: none;
+}
+
+.MenuPrincipal li {
+    float:left;
+    position: relative;
+    background-color: rgb(45, 237, 45);
+    width: 150px;
+}
+
+.MenuPrincipal > ul > li{
+    text-align: center;
+}
+
+.MenuPrincipal a {
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 32px;
+    padding: 10px 15px;
+}
+
+.MenuPrincipal ul ul {
+    display: none;
+    position: absolute;
+}
+
+.MenuPrincipal ul li:hover{
+    background-color: green;
+}
+
+.MenuPrincipal ul li:hover > ul{
+    display: block;
+}
+
+.MenuPrincipal ul ul ul {
+    top: 0px;
+    left: 100%;
+}
